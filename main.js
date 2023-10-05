@@ -12,7 +12,7 @@ fs.readFile("data.json", (err, data) =>{
             }
         }
 
-        fs.writeFile("output.txt", `Максимальний курс: ${maxr}`, (err) => {
+        fs.writeFile("output.txt", `Максимальний курс:${maxr}`, (err) => {
             if(err===null){
                 console.log("The file has been saved!")
             } else {
